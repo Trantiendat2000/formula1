@@ -36,7 +36,7 @@ const Result = () => {
   const [matchOfDriver, setMatchOfDriver] = useState([]);
   const [driverDetail, setDriverDetail] = useState([]);
   const [raceDetail, setRaceDetail] = useState([]);
-  const [dataChart, setDataChart] = useState({});
+  const [dataChart, setDataChart] = useState({ labels: [], datasets: [] });
 
   useEffect(() => {
     if (!isActive) {
