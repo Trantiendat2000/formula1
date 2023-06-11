@@ -1,0 +1,86 @@
+.result {
+  background-color: #f7f4f1;
+  padding: 50px 0;
+}
+
+.result__select > ul::-webkit-scrollbar {
+  display: none;
+}
+
+.result__select {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  font-size: 24px;
+  height: 170px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.result__select > ul {
+  overflow: auto;
+  list-style-type: none;
+  width: 100%;
+}
+
+.result__select > ul:nth-child(2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.result__select > ul > li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.actived {
+  font-weight: bold;
+  border-bottom: 1px solid red;
+  width: fit-content;
+}
+
+.unactived {
+  font-weight: normal;
+  border: none;
+}
+
+.result__table {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  margin-top: 5px;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+table > thead {
+  opacity: 0.5;
+  height: 100px;
+}
+
+table > thead > tr > td {
+  padding: 10px;
+}
+
+table > tbody > tr > td {
+  padding: 20px 10px;
+}
+
+table > tbody {
+  border: none;
+}
+
+table > tbody > tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+.lineChart {
+  width: 100%;
+}

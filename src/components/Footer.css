@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.footer > ul > li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.footer > ul > li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid red;
+  width: fit-content;
+}
